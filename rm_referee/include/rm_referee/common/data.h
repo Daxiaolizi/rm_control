@@ -87,10 +87,17 @@
 #include "rm_msgs/SentryInfo.h"
 #include "rm_msgs/SentryCmd.h"
 #include "rm_msgs/RadarInfo.h"
+#include "rm_msgs/RadarCmd.h"
 #include "rm_msgs/Buff.h"
 #include "rm_msgs/TrackData.h"
 #include "rm_msgs/SentryAttackingTarget.h"
 #include "rm_msgs/RadarToSentry.h"
+#include "rm_msgs/RadarWirelessEnemyRobotPos.h"
+#include "rm_msgs/RadarWirelessEnemyRobotHp.h"
+#include "rm_msgs/RadarWirelessEnemyProjectileAllowance.h"
+#include "rm_msgs/RadarWirelessEnemyCoinAndFieldStatus.h"
+#include "rm_msgs/RadarWirelessEnemyRobotBuff.h"
+#include "rm_msgs/RadarWirelessEnemyCallSign.h"
 #include <rm_msgs/PowerManagementSampleAndStatusData.h>
 #include <rm_msgs/PowerManagementSystemExceptionData.h>
 #include <rm_msgs/PowerManagementInitializationExceptionData.h>

@@ -13,10 +13,12 @@ add_message_files(
         FILES
         ActuatorState.msg
         BalanceState.msg
+        BulletSolverData.msg
         BusState.msg
         DbusData.msg
         Dart.msg
         ExchangerMsg.msg
+        ChassisActiveSusCmd.msg
         ChassisCmd.msg
         ShootCmd.msg
         ShootState.msg
@@ -25,7 +27,13 @@ add_message_files(
         GimbalDesError.msg
         GimbalPosState.msg
         LegCmd.msg
+        LeggedChassisMode.msg
+        LeggedChassisStatus.msg
+        LeggedUpstairStatus.msg
+        LeggedLQRStatus.msg
+        LQRkMatrix.msg
         LpData.msg
+        LocalHeatData.msg
         LocalHeatState.msg
         KalmanData.msg
         MovingAverageData.msg
@@ -48,6 +56,8 @@ add_service_files(
         CameraStatus.srv
         EnableImuTrigger.srv
         EnableGyro.srv
+        ExtraFrictionWheelSpeed.srv
+        ShooterSpeed.srv
 )
 
 add_message_files(
@@ -80,19 +90,31 @@ add_message_files(
         BulletAllowance.msg
         RfidStatus.msg
         DartClientCmd.msg
+        DartRemainingTime.msg
         ManualToReferee.msg
         RadarData.msg
+        RadarCmd.msg
         RadarMarkData.msg
         RobotsPositionData.msg
         ClientMapSendData.msg
         ClientMapReceiveData.msg
         MapSentryData.msg
         GameRobotPosData.msg
+        EnemyHpInfo.msg
         SentryInfo.msg
         RadarInfo.msg
         Buff.msg
         RadarToSentry.msg
         SentryCmd.msg
+        RadarWirelessEnemyCallSign.msg
+        RadarWirelessEnemyCoinAndFieldStatus.msg
+        RadarWirelessEnemyProjectileAllowance.msg
+        RadarWirelessEnemyRobotBuff.msg
+        RadarWirelessEnemyRobotHp.msg
+        RadarWirelessEnemyRobotPos.msg
+        CustomClientCmdData.msg
+        RobotCustomData.msg
+        RobotCustomData2.msg
         VisualizeStateData.msg
         PowerManagementSampleAndStatusData.msg
         PowerManagementInitializationExceptionData.msg
